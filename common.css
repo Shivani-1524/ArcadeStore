@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
+
+.nav-logo img {
+  width: 35px;
+  height: 35px;
+  object-fit: contain;
+}
+
+.navbar {
+  padding: 5px;
+}
+
+.nav-logo {
+  padding: 10px;
+}
+
+.mg-t-60 {
+  margin-top: 60px;
+}
+.mg-t-70 {
+  margin-top: 70px;
+}
+
+.dark-bg {
+  background-color: var(--primary-color);
+}

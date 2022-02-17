@@ -1,0 +1,132 @@
+:root {
+  font-size: 13px;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  padding: 5px 30px;
+}
+
+.new-font {
+  font-family: "Audiowide", cursive;
+}
+.content-container {
+  width: 100%;
+  height: 100%;
+}
+.gradient-font {
+  background: -webkit-linear-gradient(#40c9ff, #e81cff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.xl-font {
+  font-size: 5rem;
+  line-height: 7rem;
+}
+.hero-section {
+  background-color: var(--primary-color);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-left: 60px;
+}
+.light-txt {
+  color: var(--light-grey);
+}
+.pill-btn {
+  border-radius: 15px;
+}
+
+.bottom-right-gif {
+  width: 350px;
+  height: 350px;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 5.3rem;
+}
+
+.hero-link {
+  text-decoration: none;
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+.hero-link:hover {
+  color: var(--yellow-color-light);
+}
+
+.round-img-container {
+  width: 15rem;
+  height: 15rem;
+  border: 2px solid transparent;
+  border-radius: 50%;
+}
+
+.round-img-container:hover {
+  cursor: pointer;
+  border: 2px solid var(--violet-color);
+}
+
+.flex-row {
+  gap: 3rem;
+}
+
+.category-preview {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: min-content;
+}
+
+.text-wrapper.center-items.dark-bg {
+  background-color: var(--primary-color);
+  padding: 10px 20%;
+}
+
+.img-wrapper {
+  max-height: 24.5rem;
+}
+
+.subtle-btn {
+  color: var(--light-grey);
+  border: 1px solid transparent;
+}
+
+.brand-img-wrapper {
+  width: 8.4rem;
+  height: 8.4rem;
+}
+
+.arrivals-container {
+  width: 90%;
+  margin: auto;
+  margin-top: 8.5rem;
+}
+
+.arrivals-container .grid-layout-5050 {
+  gap: 1.5rem;
+  background-color: transparent;
+}
+
+.grid-txt-overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.678);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.subtle-btn:hover {
+  color: var(--orange-color);
+  border: none;
+}
