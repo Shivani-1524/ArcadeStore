@@ -1,8 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
 
+:root {
+  --blue-gradient: #40c9ff;
+  --violet-gradient: #e81cff;
+  font-size: 13px;
+}
+
 .nav-logo img {
-  width: 35px;
-  height: 35px;
+  width: 2.6rem;
+  height: 2.6rem;
   object-fit: contain;
 }
 
@@ -15,10 +21,10 @@
 }
 
 .mg-t-60 {
-  margin-top: 60px;
+  margin-top: 4.5rem;
 }
 .mg-t-70 {
-  margin-top: 70px;
+  margin-top: 5.3rem;
 }
 
 .dark-bg {
