@@ -70,10 +70,6 @@
   padding: 10px 20%;
 }
 
-.img-wrapper {
-  max-height: 24.5rem;
-}
-
 .subtle-btn {
   color: var(--light-grey);
   border: 1px solid transparent;
