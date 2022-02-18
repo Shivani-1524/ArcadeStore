@@ -2,18 +2,15 @@
   display: grid;
   grid-template-columns: 65% 35%;
   height: 100%;
-  width: 80%;
+  width: 87%;
   margin: auto;
+  margin-top: 90px;
+  margin-bottom: 90px;
 }
 
 .cart-items {
   display: flex;
   flex-direction: column;
-  gap: 25px;
-}
-
-.buy-container {
-  background-color: red;
 }
 
 .sm-btn {
@@ -33,6 +30,9 @@
 .qty-row input {
   width: 30px;
 }
+.qty-row button:hover {
+  cursor: pointer;
+}
 
 .qty-row button {
   color: var(--dark-grey);
@@ -40,4 +40,44 @@
   width: 20px;
   border: none;
   font-size: 0.8rem;
+}
+
+.buy-container {
+  border-left: 2px solid var(--light-grey);
+  margin-left: 30px;
+  width: 100%;
+  height: 100%;
+}
+.divider {
+  margin: auto;
+  width: 90%;
+  background-color: var(--light-grey);
+  height: 1px;
+}
+.n-wt {
+  font-weight: 400;
+}
+.img-container {
+  object-fit: cover;
+}
+
+.cart-details {
+  padding: 20px;
+  border-radius: 5px;
+  background-color: var(--extra-light-grey);
+  margin: auto;
+  display: flex;
+  gap: 6px;
+  flex-direction: column;
+  width: 90%;
+  margin-top: 90px;
+}
+
+.cart-details button {
+  width: 100%;
+}
+
+.item-detail {
+  display: flex;
+  justify-content: space-between;
 }
