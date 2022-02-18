@@ -5,9 +5,14 @@
   --violet-gradient: #e81cff;
   font-size: 13px;
 }
-
+a {
+  text-decoration: none;
+}
 .light-txt {
   color: var(--light-grey);
+}
+.flex-row {
+  justify-content: center;
 }
 
 .nav-logo img {
@@ -31,6 +36,12 @@
   padding: 5px 30px;
 }
 
+.flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .new-font {
   font-family: "Audiowide", cursive;
 }
@@ -52,4 +63,24 @@
 
 .red-txt {
   color: var(--red-color);
+}
+
+.check-container {
+  display: flex;
+  gap: 7px;
+  font-size: 1.1rem;
+  align-items: center;
+}
+
+.check-container input {
+  width: 1.1rem;
+  height: 1.1rem;
+}
+
+.check-container input:hover {
+  cursor: pointer;
+}
+
+.forgot-pswd:hover {
+  cursor: pointer;
 }
