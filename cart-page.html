@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arcade Store</title>
+    <script src="https://kit.fontawesome.com/4a9487b343.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://nifty-tesla-85dda2.netlify.app/Components/components.css">
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="cart-page.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-logo">
+            <img src="./Assets/nav-logo.png" alt="logo" />
+        </div>
+        <div class="nav-items">
+            <a class="nav-link sm-title hide-md" href="">Shop</a>
+            <a class="nav-link sm-title hide-md" href="">Categories</a>
+        </div>
+        <div class="nav-space"></div>
+        <div class="nav-icon-items">
+            <div class="nav-search-bar hide-sm">
+                <input class="search-bar" type="text" placeholder="Search..">
+                <i class="fa fa-brands fa-searchengin"></i>
+            </div>
+            <button id="dark-bg-icon" class="btn icon-btn hide-md">
+                <i class="fa fa-solid fa-user"></i>
+            </button>
+            <button id="dark-bg-icon" class="btn icon-btn hide-md">
+                <i class="fa fa-solid fa-heart"></i>
+            </button>
+            <button id="dark-bg-icon" class="btn icon-btn hide-md">
+                <i class="fas fa-shopping-cart"></i>
+            </button>
+            <button id="dark-bg-icon" class="btn icon-btn show-md">
+                <i class="fas fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+    <section class="cart-container">
+        <div class="cart-items">
+            <h1 class="rg-title center-txt mg-t-60">My Cart</h1>
+            <div class="card hor-card mg-t-30">
+                <div class="img-container">
+                    <img src="..." alt="card image">
+                </div>
+                <div class="text-card">
+                    <p class="md-booky-title bold">The Chronicles of Narnia </p>
+                    <p class="xsm-p grey-txt">Written by C.S.Lewis</p>
+                    <p class="sm-p mg-t-10">Lorem ipsum dolor sit amet
+                        consectetur, adipisicing elit. Fugit consequatur
+                        officiis doloribus. .</p>
+                    <div class="review-row mg-t-15">
+                        <div class="rating-row">
+                            <i class="fas fa-star"></i>
+                            <p class="sm-title">4.3</p>
+                        </div>
+                        <i class="fas fa-circle"></i>
+                        <p class="review-num xsm-p grey-txt">(43)</p>
+                    </div>
+                    <div class="mg-t-5 flex-row">
+                        <p class="md-title">Rs. 200</p>
+                        <div class="flex-row sm qty-row">
+                            <p class="xsm-p">Quantity:</p>
+                            <button><i class="fa fa-solid fa-minus"></i></button> <input type="text"> <button><i
+                                    class="fa fa-solid fa-plus"></i></button>
+                        </div>
+
+                    </div>
+                    <div class="card-btn-row mg-t-10">
+                        <button class="btn subtle-btn sm-btn">Remove<i class="fa fa-solid fa-minus"></i></button>
+                        <button class="btn warning-outlined-btn sm-btn">Move to Wishlist</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card hor-card">
+                <div class="img-container">
+                    <img src=".." alt="card image">
+                </div>
+                <div class="text-card">
+                    <p class="md-booky-title bold">The Chronicles of Narnia </p>
+                    <p class="xsm-p grey-txt">Written by C.S.Lewis</p>
+                    <p class="sm-p mg-t-10">Lorem ipsum dolor sit amet
+                        consectetur, adipisicing elit. Fugit consequatur
+                        officiis doloribus. .</p>
+                    <div class="review-row mg-t-15">
+                        <div class="rating-row">
+                            <i class="fas fa-star"></i>
+                            <p class="sm-title">4.3</p>
+                        </div>
+                        <i class="fas fa-circle"></i>
+                        <p class="review-num xsm-p grey-txt">(43)</p>
+                    </div>
+                    <div class="mg-t-5">
+                        <p class="md-title">Rs. 200</p>
+                    </div>
+                    <div class="card-btn-row mg-t-10">
+                        <button class="btn primary-btn">Add to Cart</button>
+                        <button class="btn primary-outlined-btn">Add to List</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="buy-container"></div>
+    </section>
+</body>
+
+</html>

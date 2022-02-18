@@ -1,0 +1,43 @@
+.cart-container {
+  display: grid;
+  grid-template-columns: 65% 35%;
+  height: 100%;
+  width: 80%;
+  margin: auto;
+}
+
+.cart-items {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.buy-container {
+  background-color: red;
+}
+
+.sm-btn {
+  padding: 5px 10px;
+  height: fit-content;
+  font-size: 1.1rem;
+}
+
+.card-btn-row {
+  align-items: center;
+}
+
+.flex-row.sm {
+  gap: 7px;
+}
+
+.qty-row input {
+  width: 30px;
+}
+
+.qty-row button {
+  color: var(--dark-grey);
+  background-color: var(--yellow-color-light);
+  width: 20px;
+  border: none;
+  font-size: 0.8rem;
+}
