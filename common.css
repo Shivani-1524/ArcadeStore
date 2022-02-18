@@ -5,6 +5,9 @@
   --violet-gradient: #e81cff;
   font-size: 13px;
 }
+* {
+  font-family: "Inter", sans-serif;
+}
 
 .light-txt {
   color: var(--light-grey);
