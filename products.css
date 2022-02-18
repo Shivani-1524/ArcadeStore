@@ -1,0 +1,65 @@
+* {
+  font-family: "Inter", sans-serif;
+}
+
+.products-layout {
+  margin-top: 67px;
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  height: 100%;
+  width: 100%;
+}
+
+.filters-container {
+  position: fixed;
+  width: 250px;
+  padding: 30px 20px 100px 25px;
+  height: 100%;
+  background-color: var(--primary-color);
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.filter-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.n-wt {
+  font-weight: 400;
+}
+
+.sm-sub-title {
+  font-size: 1rem;
+  font-family: "Inter", sans-serif;
+}
+
+.category-check {
+  display: flex;
+  gap: 10px;
+}
+
+.category-check input[type="checkbox"]:checked {
+  background-color: var(--primary-color);
+  color: var(--primary-color);
+  width: 14px;
+  height: 14px;
+}
+
+.filter-clear:hover {
+  cursor: pointer;
+}
+
+.products-section {
+  padding: 3rem 2rem 20px 2rem;
+  grid-column: 2/3;
+  display: grid;
+  column-gap: 20px;
+  /* column gap not respected why? */
+  row-gap: 3rem;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-rows: repeat(auto-fill, max-content);
+}

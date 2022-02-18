@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arcade Store</title>
+    <script src="https://kit.fontawesome.com/4a9487b343.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://nifty-tesla-85dda2.netlify.app/Components/components.css">
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="products.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-logo">
+            <img src="./Assets/nav-logo.png" alt="logo" />
+        </div>
+        <div class="nav-items">
+            <a class="nav-link sm-title hide-md" href="">Shop</a>
+            <a class="nav-link sm-title hide-md" href="">Categories</a>
+        </div>
+        <div class="nav-space"></div>
+        <div class="nav-icon-items">
+            <div class="nav-search-bar hide-sm">
+                <input class="search-bar" type="text" placeholder="Search..">
+                <i class="fa fa-brands fa-searchengin"></i>
+            </div>
+            <button id="dark-bg-icon" class="btn icon-btn hide-md">
+                <i class="fa fa-solid fa-user"></i>
+            </button>
+            <button id="dark-bg-icon" class="btn icon-btn hide-md">
+                <i class="fa fa-solid fa-heart"></i>
+            </button>
+            <button id="dark-bg-icon" class="btn icon-btn hide-md">
+                <i class="fas fa-shopping-cart"></i>
+            </button>
+            <button id="dark-bg-icon" class="btn icon-btn show-md">
+                <i class="fas fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+    <div class="products-layout">
+        <aside class="filters-container light-txt">
+            <div class="filter-header">
+                <p class="sm-title">FILTERS</p>
+                <p class="red-txt n-wt xsm-title filter-clear">CLEAR ALL</p>
+            </div>
+            <div>
+                <div class="filter-header">
+                    <p class="sm-sub-title n-wt">PRICE</p> <span class="xsm-p">100 - 1000</span>
+                </div>
+                <input id="range-slider" class="mg-t-20" type="range" min="0" max="100" value="50">
+            </div>
+            <div>
+                <p class="sm-sub-title n-wt">CATEGORY</p>
+                <div class="category-check mg-t-20">
+                    <input type="checkbox" id="gameCD" name="gameCD" value="Bike">
+                    <label for="gameCD">Fandom Collectibles</label>
+                </div>
+                <div class="category-check mg-t-15">
+                    <input type="checkbox" id="gameCD" name="gameCD" value="Bike">
+                    <label for="gameCD">CLothing</label>
+                </div>
+                <div class="category-check mg-t-15">
+                    <input type="checkbox" id="gameCD" name="gameCD" value="Bike">
+                    <label for="gameCD">Accessories</label>
+                </div>
+                <div class="category-check mg-t-15">
+                    <input type="checkbox" id="gameCD" name="gameCD" value="Bike">
+                    <label for="gameCD"> Game Discs</label>
+                </div>
+            </div>
+            <div>
+                <p class="sm-sub-title n-wt">SORT BY</p>
+                <div class="category-check mg-t-20">
+                    <input type="radio" id="gameCD" name="gameCD" value="Bike">
+                    <label for="gameCD">Customer Rating</label>
+                </div>
+                <div class="category-check mg-t-15">
+                    <input type="radio" id="gameCD" name="gameCD" value="Bike">
+                    <label for="gameCD">Lowest to Highest</label>
+                </div>
+                <div class="category-check mg-t-15">
+                    <input type="radio" id="gameCD" name="gameCD" value="Bike">
+                    <label for="gameCD">Highest to Lowest</label>
+                </div>
+                <div class="category-check mg-t-15">
+                    <input type="radio" id="gameCD" name="gameCD" value="Bike">
+                    <label for="gameCD">What's New</label>
+                </div>
+            </div>
+            <div>
+                <p class="sm-sub-title n-wt">GAMES</p>
+                <div class="category-check mg-t-20">
+                    <input type="checkbox" id="gameCD" name="gameCD" value="Bike">
+                    <label for="gameCD"> Genshin Impact</label>
+                </div>
+                <div class="category-check mg-t-15">
+                    <input type="checkbox" id="gameCD" name="gameCD" value="Bike">
+                    <label for="gameCD"> Valorant </label>
+                </div>
+                <div class="category-check mg-t-15">
+                    <input type="checkbox" id="gameCD" name="gameCD" value="Bike">
+                    <label for="gameCD"> Apex Legends</label>
+                </div>
+                <div class="category-check mg-t-15">
+                    <input type="checkbox" id="gameCD" name="gameCD" value="Bike">
+                    <label for="gameCD"> Call of Duty</label>
+                </div>
+            </div>
+        </aside>
+
+        <section class="products-section">
+            <div class="card ver-card no-bg-color">
+                <div class="img-container">
+                    <img class="img-resp" src="./Assets/Products/ps5-controller.jpg" alt="card image">
+                </div>
+                <div class="text-card">
+                    <p class="sm-title bold">PlayStation5 Controller</p>
+                    <p class="xsm-p grey-txt">SONY</p>
+                    <div class="mg-t-5 grey-txt">
+                        <p class="sm-title grey-txt">Rs. 5000</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card ver-card no-bg-color">
+                <div class="img-container">
+                    <img class="img-resp" src="./Assets/Products/ps5.jpg" alt="card image">
+                </div>
+                <div class="text-card">
+                    <p class="sm-title bold">PlayStation5</p>
+                    <p class="xsm-p grey-txt">SONY</p>
+                    <div class="mg-t-5 grey-txt">
+                        <p class="sm-title grey-txt">Rs. 49,990</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card ver-card no-bg-color">
+                <div class="img-container">
+                    <img class="img-resp" src="./Assets/Products/genshin-poster.jfif" alt="card image">
+                </div>
+                <div class="text-card">
+                    <p class="sm-title bold">Zhongli Squad Poster</p>
+                    <p class="xsm-p grey-txt">Genshin Impact</p>
+                    <div class="mg-t-5 grey-txt">
+                        <p class="sm-title grey-txt">Rs. 200</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card ver-card no-bg-color">
+                <div class="img-container">
+                    <img class="img-resp" src="./Assets/Products/apex-hoodie.png" alt="card image">
+                </div>
+                <div class="text-card">
+                    <p class="sm-booky-title bold">Black Apex Hoodie</p>
+                    <p class="xsm-p grey-txt">Apex Legends</p>
+                    <div class="mg-t-5 grey-txt">
+                        <p class="sm-title grey-txt">Rs. 200</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card ver-card no-bg-color">
+                <div class="img-container">
+                    <img class="img-resp" src="./Assets/Products/chongung-poster.jfif" alt="card image">
+                </div>
+                <div class="text-card">
+                    <p class="sm-booky-title bold">Chongyung Xinqui Poster</p>
+                    <p class="xsm-p grey-txt">Genshin Impact</p>
+                    <div class="mg-t-5 grey-txt">
+                        <p class="sm-title grey-txt">Rs. 200</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card ver-card no-bg-color">
+                <div class="img-container">
+                    <img class="img-resp" src="./Assets/Products/itto-poster.jfif" alt="card image">
+                </div>
+                <div class="text-card">
+                    <p class="sm-booky-title bold">Itto Poster </p>
+                    <p class="xsm-p grey-txt">from C.S.Lewis</p>
+                    <div class="mg-t-5 grey-txt">
+                        <p class="sm-title grey-txt">Rs. 200</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card ver-card no-bg-color">
+                <div class="img-container">
+                    <img class="img-resp" src="./Assets/Products/omen-poster.jfif" alt="card image">
+                </div>
+                <div class="text-card">
+                    <p class="sm-booky-title bold">Omen Poster </p>
+                    <p class="xsm-p grey-txt">Valorant</p>
+                    <div class="mg-t-5 grey-txt">
+                        <p class="sm-title grey-txt">Rs. 200</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card ver-card no-bg-color">
+                <div class="img-container">
+                    <img class="img-resp" src="./Assets/Products/paimon-hoodie.jfif" alt="card image">
+                </div>
+                <div class="text-card">
+                    <p class="sm-booky-title bold">Omen Poster </p>
+                    <p class="xsm-p grey-txt">Valorant</p>
+                    <div class="mg-t-5 grey-txt">
+                        <p class="sm-title grey-txt">Rs. 200</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card ver-card no-bg-color">
+                <div class="img-container">
+                    <img class="img-resp" src="./Assets/Products/val-poster.png" alt="card image">
+                </div>
+                <div class="text-card">
+                    <p class="sm-booky-title bold">Omen Poster </p>
+                    <p class="xsm-p grey-txt">Valorant</p>
+                    <div class="mg-t-5 grey-txt">
+                        <p class="sm-title grey-txt">Rs. 200</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+</body>
+
+</html>
