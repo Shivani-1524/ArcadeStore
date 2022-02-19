@@ -10,6 +10,11 @@ img {
   height: 100%;
   object-fit: contain;
 }
+
+.flex-row.center-row {
+  justify-content: center;
+}
+
 .light-txt {
   color: var(--light-grey);
 }
