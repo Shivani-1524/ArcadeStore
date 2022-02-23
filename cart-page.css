@@ -4,8 +4,8 @@
   height: 100%;
   width: 87%;
   margin: auto;
-  margin-top: 90px;
-  margin-bottom: 90px;
+  margin-top: 6.9rem;
+  margin-bottom: 6.9rem;
 }
 
 .cart-items {
@@ -28,7 +28,7 @@
 }
 
 .qty-row input {
-  width: 30px;
+  width: 2.3rem;
 }
 .qty-row button:hover {
   cursor: pointer;
@@ -37,14 +37,14 @@
 .qty-row button {
   color: var(--dark-grey);
   background-color: var(--yellow-color-light);
-  width: 20px;
+  width: 1.5rem;
   border: none;
   font-size: 0.8rem;
 }
 
 .buy-container {
   border-left: 2px solid var(--light-grey);
-  margin-left: 30px;
+  margin-left: 2.3rem;
   width: 100%;
   height: 100%;
 }
@@ -70,7 +70,7 @@
   gap: 6px;
   flex-direction: column;
   width: 90%;
-  margin-top: 90px;
+  margin-top: 6.9rem;
 }
 
 .cart-details button {
