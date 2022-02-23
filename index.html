@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arcade Store</title>
+    <script src="https://kit.fontawesome.com/4a9487b343.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://nifty-tesla-85dda2.netlify.app/Components/components.css">
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-logo">
+            <img src="./Assets/nav-logo.png" alt="logo" />
+        </div>
+        <div class="nav-items">
+            <a class="nav-link sm-title hide-md" href="products.html">Shop</a>
+            <a class="nav-link sm-title hide-md" href="">Categories</a>
+        </div>
+        <div class="nav-space"></div>
+        <div class="nav-icon-items">
+            <div class="nav-search-bar hide-sm">
+                <input class="search-bar" type="text" placeholder="Search..">
+                <i class="fa fa-brands fa-searchengin"></i>
+            </div>
+            <button id="dark-bg-icon" class="btn icon-btn hide-md">
+                <i class="fa fa-solid fa-user"></i>
+            </button>
+            <button id="dark-bg-icon" class="btn icon-btn hide-md">
+                <i class="fa fa-solid fa-heart"></i>
+            </button>
+            <a href="cart-page.html">
+                <button id="dark-bg-icon" class="btn icon-btn hide-md">
+                    <i class="fas fa-shopping-cart"></i>
+                </button>
+            </a>
+            <button id="dark-bg-icon" class="btn icon-btn show-md">
+                <i class="fas fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <div class="content-container">
+        <section class="hero-section pos-rel">
+
+            <lottie-player class="pos-abs bottom-right-gif"
+                src="https://assets4.lottiefiles.com/packages/lf20_JGYxV8.json" background="transparent" speed="1" loop
+                autoplay></lottie-player>
+
+            <h1 class="xl-font lg-title light-txt">
+                <span class="gradient-font">Experience </span>Gaming.
+            </h1>
+            <h1 class="xl-font lg-title light-txt">
+                On a <span class="gradient-font">Whole New Level.</span>
+            </h1>
+            <a class="hero-link mg-t-40 rg-p light-txt" href="">Shop Now <i class="fa fa-solid fa-arrow-right"></i></a>
+        </section>
+        <div class="section categories-container mg-t-60">
+            <h1 class="new-font center-txt">
+                CATEGORIES TO BAG
+            </h1>
+            <div class="flex-row center-row mg-t-40">
+                <div class="category-preview">
+                    <div class="round-img-container">
+                        <img class="round-img img-resp" src="./Assets/Categories/hoodie.png" alt="Hoodie image" />
+                    </div>
+                    <p class="rg-p center-txt">Clothing and Merch</p>
+                </div>
+                <div class="category-preview">
+                    <div class="round-img-container">
+                        <img class="round-img img-resp" src="./Assets/Categories/ps5.jpg" alt="PS5 Sony Image" />
+                    </div>
+                    <p class="rg-p center-txt">PCs, PlayStations & more</p>
+                </div>
+                <div class="category-preview">
+                    <div class="round-img-container">
+                        <img class="round-img img-resp" src="./Assets/Categories/cyberpunk.jfif"
+                            alt="CyberPunk CD image" />
+                    </div>
+                    <p class="rg-p center-txt">Game Discs</p>
+                </div>
+                <div class="category-preview">
+                    <div class="round-img-container">
+                        <img class="round-img img-resp" src="./Assets/Categories/headphone.jpg"
+                            alt="Headphones image" />
+                    </div>
+                    <p class="rg-p center-txt">Gadgets and Accessories</p>
+                </div>
+            </div>
+        </div>
+        <div class="section deals-container mg-t-70">
+            <h1 class="new-font center-txt">
+                DEAL OF THE DAY
+            </h1>
+            <div class="grid-layout-7030 mg-t-40 dark-bg">
+                <div class="img-wrapper">
+                    <img class="img-resp" src="./Assets/raze-val.jfif" alt="Raze Valorant Image">
+                </div>
+                <div class="text-wrapper center-items dark-bg">
+                    <div class=" flex-col">
+                        <p class="rg-title light-txt center-txt">Valorant Merch Upto 70% Off </p>
+                        <button class="btn subtle-btn mg-t-10">Explore <i class="fa fa-solid fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section arrivals-container mg-t-70">
+            <h1 class="new-font center-txt">
+                NEW ARRIVALS
+            </h1>
+            <div class="grid-layout-5050 mg-t-40 dark-bg">
+                <div class="img-wrapper pos-rel">
+                    <div class="grid-txt-overlay pos-abs">
+                        <p class="rg-title light-txt center-txt">Fresh Collection of Genshin Posters</p>
+                        <button class="btn subtle-btn mg-t-10">Explore <i class="fa fa-solid fa-arrow-right"></i>
+                        </button>
+                    </div>
+                    <img class="img-resp" src="./Assets/xiao-genshin.jfif" alt="Xiao Genshin Poster">
+                </div>
+                <div class="img-wrapper pos-rel">
+                    <div class="grid-txt-overlay pos-abs">
+                        <p class="rg-title light-txt center-txt">Valorant collectibles</p>
+                        <button class="btn subtle-btn mg-t-10">Explore <i class="fa fa-solid fa-arrow-right"></i>
+                        </button>
+                    </div>
+                    <img class="img-resp" src="./Assets/collectibles-val.jfif" alt="Valorant Collectibles Image">
+                </div>
+            </div>
+        </div>
+        <div class="section deals-container mg-t-70">
+            <h1 class="new-font center-txt">
+                FEATURED BRANDS
+            </h1>
+            <div class="flex-row center-row mg-t-40">
+                <div class="brand-img-wrapper">
+                    <img class="img-resp" src="./Assets/Brands/nvidea.png" alt="nvidea brand">
+                </div>
+                <div class="brand-img-wrapper">
+                    <img class="img-resp" src="./Assets/Brands/intel.png" alt="intel brand">
+                </div>
+                <div class="brand-img-wrapper">
+                    <img class="img-resp" src="./Assets/Brands/ubisoft.png" alt="ubisoft games">
+                </div>
+                <div class="brand-img-wrapper">
+                    <img class="img-resp" src="./Assets/Brands/electronics-arts.png" alt="Electronice Arts Games">
+                </div>
+                <div class="brand-img-wrapper">
+                    <img class="img-resp" src="./Assets/Brands/tencent.png" alt="Tencent">
+                </div>
+                <div class="brand-img-wrapper">
+                    <img class="img-resp" src="./Assets/Brands/sony.png" alt="Sony Brand">
+                </div>
+            </div>
+        </div>
+        <footer class="docs-footer comp-footer">
+            <p class="sm-p mg-t-15">Made with 💖 by Shivani</p>
+            <div class="flex-row mg-t-10">
+                <a target="_blank" rel="noopener" href="https://twitter.com/Shivani07517015">
+                    <button class="btn icon-btn center-items">
+                        <i class="fa fa-brands fa-twitter"></i>
+                    </button>
+                </a>
+                <a target="_blank" rel="noopener" href="https://medium.com/@shivanipothirajan">
+                    <button class="btn icon-btn center-items">
+                        <i class="fa fa-brands fa-medium"></i>
+                    </button>
+                </a>
+                <a target="_blank" rel="noopener" href="https://www.linkedin.com/in/shivani-pothirajan-2b276996/">
+                    <button class="btn icon-btn center-items">
+                        <i class="fa fa-brands fa-linkedin"></i>
+                    </button>
+                </a>
+                <a target="_blank" rel="noopener" href="https://github.com/Shivani-1524">
+                    <button class="btn icon-btn center-items">
+                        <i class="fa fa-brands fa-github"></i>
+                    </button>
+                </a>
+            </div>
+        </footer>
+
+
+    </div>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+
+
+</body>
+
+</html>
