@@ -9,6 +9,13 @@
   font-family: "Inter", sans-serif;
 }
 
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
 .flex-row.center-row {
   justify-content: center;
 }
