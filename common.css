@@ -40,6 +40,10 @@ a {
   padding: 5px;
 }
 
+.close-icon.white {
+  color: var(--white);
+}
+
 .nav-logo {
   padding: 10px;
 }
