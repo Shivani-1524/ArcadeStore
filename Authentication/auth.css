@@ -17,6 +17,10 @@
   border-radius: 7px;
 }
 
+.auth-card.logout {
+  height: auto;
+}
+
 .auth-card button {
   width: 100%;
 }
