@@ -1,0 +1,22 @@
+.auth-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--violet-color-light);
+}
+
+.auth-card {
+  margin-top: 60px;
+  width: 30rem;
+  height: 30rem;
+  padding: 2rem 3rem;
+  background-color: var(--white);
+  border: 1px solid var(--grey);
+  border-radius: 7px;
+}
+
+.auth-card button {
+  width: 100%;
+}
