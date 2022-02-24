@@ -26,6 +26,9 @@ a {
 .light-txt {
   color: var(--light-grey);
 }
+.green-txt {
+  color: var(--green-color);
+}
 .flex-row {
   justify-content: center;
 }
